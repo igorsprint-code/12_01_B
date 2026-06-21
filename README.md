@@ -5,14 +5,14 @@
 
 1.2 Создайте учётную запись sys_temp.
 
-```SQL
+```
 CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password123';
 
 ```
 
-
-
 1.3 Выполните запрос на получение списка пользователей в базе данных. (скриншот)
+
+![screen](screenshots/1-3.png)
 
 1.4 Дайте все права для пользователя sys_temp.
 
