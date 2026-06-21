@@ -7,6 +7,7 @@
 
 ```
 CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password123';
+
 ```
 
 
