@@ -5,7 +5,7 @@
 
 1.2 Создайте учётную запись sys_temp.
 
-```
+```SQL
 CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password123';
 
 ```
