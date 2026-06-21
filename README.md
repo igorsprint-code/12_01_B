@@ -16,6 +16,10 @@ CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password123';
 
 1.4 Дайте все права для пользователя sys_temp.
 
+```
+GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
+```
+
 1.5 Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
 1.6 Переподключитесь к базе данных от имени sys_temp.
