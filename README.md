@@ -26,6 +26,10 @@ GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
 
 1.6 Переподключитесь к базе данных от имени sys_temp.
 
+```
+docker exec -it test_db mysql -u sys_temp -p
+```
+
 Для смены типа аутентификации с sha2 используйте запрос:
 
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
