@@ -51,6 +51,9 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ### Решение
 
 
+![screen](screenshots/excel.png)
+
+
  
 
 Дополнительные задания (со звёздочкой)*
